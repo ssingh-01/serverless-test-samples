@@ -8,7 +8,7 @@ OUTPUT_SCHEMA = {
     "title": "Sample Output schema",
     "description": "The root schema comprises the entire JSON document of the Return Schema.",
     "examples": [{"statusCode": 200, "body": "Hello Tom Smith!"}],
-    "required": ["statusCode", "body","signed_url"],
+    "required": ["statusCode", "body"],
     "properties": {
         "statusCode": {
             "$id": "#/properties/statusCode",
